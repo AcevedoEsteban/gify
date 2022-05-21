@@ -17,13 +17,13 @@ $(document).ready(() => {
 
 function getGif() {
   let searchbtn = $("#Giphy").val();
-  let apiKey = "HECDm9XInzsgYrbK6VZxfulkZiBvp39b";
+  let apiKey = "xKN4dGbvzcxAxbXiNmxbIYlsls06zXY5";
   let apiKey2 = "HECDm9XInzsgYrbK6VZxfulkZiBvp39b";
   var queryURL =
     "https://api.giphy.com/v1/gifs/search?q=" +
     searchbtn +
     "&api_key=" +
-    apiKey2 +
+    apiKey +
     "&limit=25";
 
   $.ajax({
